@@ -13,6 +13,10 @@ const itemSchema = new mongoose.Schema({
     type: String,
     required: false
   },
+  isCompleted: {
+    type: Boolean,
+    required: true
+  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
