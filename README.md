@@ -1,4 +1,54 @@
-# Bucket List: Keep track of your life's dreams
+# Bucket List - Back end 
+
+Keep track of your life's dreams
+
+Part 1 of 2. As a back end application it makes use of Mongoose, MongoDB, Express, Node.js, Javascript, and cors, among other middleware to tell our app how to communicate with the server 
+
+(Schema)
+
+(Router)
+
+## Table of Contents
+
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Hosted]
+* [Diagrams](#diagrams)
+* [User Stories](#user-stories)
+* [Unsolved Problems](#unsolved-problems)
+* [Images](#images)
+
+## General Info 
+
+Used Javascript, Express to make an API, Mongoose to create a schema, and MongoDB as our database.
+
+## Technologies 
+
+Project is created with: 
+
+* Javascript
+* Mongoose 5.8.1
+* MongoDB 3.4.0
+* Express 4.17.1
+* JSONWebToken 8.5.1
+* Bcrypt 3.0.7
+* Passport 0.4.1
+* Node 10.15.0
+* NPM 6.4.1
+
+## Hosted @ Heroku
+<br />
+
+## Diagrams
+
+<br />
+
+## User Stories
+
+## Unsolved Problems
+
+## Images
+
 
 This application allows the user create a list of the things they have always wants to do and cross them off as they achieve their goals. We wanted to create this application because it was both something we want to use ourselves and because it was something relatively simple that would allow us to create an immersive, seamless user experience.
 
