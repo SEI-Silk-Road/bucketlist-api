@@ -2,9 +2,13 @@
 
 Keep track of your life's dreams
 
-Part 1 of 2. As a back end application it makes use of Mongoose, MongoDB, Express, Node.js, Javascript, and cors, among other middleware to tell our app how to communicate with the server 
+[Visit Live Site](https://sei-silk-road.github.io/bucketlist-client/)
 
-(Schema)
+Heroku hosting the API at this [link](https://gentle-journey-02010.herokuapp.com/)
+
+Front end can be found [here](https://github.com/SEI-Silk-Road/bucketlist-client).
+
+Part 1 of 2. As a back end application it makes use of Mongoose, MongoDB, Express, Node.js, Javascript, and cors, among other middleware to tell our app how to communicate with the server 
 
 (Router)
 
@@ -12,7 +16,7 @@ Part 1 of 2. As a back end application it makes use of Mongoose, MongoDB, Expres
 
 * [General Info](#general-info)
 * [Technologies](#technologies)
-* [Hosted]
+* [Schemas](#schemas)
 * [Diagrams](#diagrams)
 * [User Stories](#user-stories)
 * [Unsolved Problems](#unsolved-problems)
@@ -32,10 +36,27 @@ Project is created with:
 * Express 4.17.1
 * JSONWebToken 8.5.1
 * Bcrypt 3.0.7
+* CORS 2.8.5
 * Passport 0.4.1
 * Node 10.15.0
 * NPM 6.4.1
 
+## Schemas 
+*In Mongoose we start with a Schema. Each schema maps to a MongoDB collection and defines the shape of the documents within that collection.*
+
+<img src="https://i.imgur.com/caR9EgJ.jpg" alt="MongoDB structure">
+
+### Collections:
+
+__Item Schema__ 
+<img src="https://i.imgur.com/VjztBjj.png" alt="item schema">
+
+Shown here is our item schema where the key value pairs make up our documents.
+
+__User Schema__
+<img src="https://i.imgur.com/dh9iaDm.png" alt="user schema">
+
+And here our actual user schema.
 ## Hosted @ Heroku
 <br />
 
@@ -44,8 +65,15 @@ Project is created with:
 <br />
 
 ## User Stories
-
+-   As a user I want to sign in/up
+-   As a user I want to Create a new resource
+-   As a user I want to Read multiple resources
+-   As a user I want to Read a single resource
+-   As a user I want to Update a resource I own
+-   As a user I want to Delete a resource I own
 ## Unsolved Problems
+* Could use work in the UI department
+* Integrate Google Maps API
 
 ## Images
 
@@ -56,7 +84,7 @@ This application allows the user create a list of the things they have always wa
 
 -   [Other Repo](https://github.com/SEI-Silk-Road/bucketlist-client)
 -   [Deployed API](https://gentle-journey-02010.herokuapp.com/)
--   [Deployed Client](https://sei-silk-road.github.io/bucketlist-client/)
+-   [Deployed Client](https://sei-silk-road.github.io/bucketlist-client/) This project is hosted live at:
 
 ## Planning Story
 
@@ -74,23 +102,6 @@ some fun additions such as *Unsplash* background and a pagination feature.
 Overall, we got to really get hands on with two new interesting roles in software,
 building in React and working with version control amongst a team!
 
-### User Stories
-
--   As a user I want to sign in/up
--   As a user I want to Create a new resource
--   As a user I want to Read multiple resources
--   As a user I want to Read a single resource
--   As a user I want to Update a resource I own
--   As a user I want to Delete a resource I own
-
-### Technologies Used
-
--   Mongoose
--   MongoDB
--   CORS
--   Javascript
--   Express
-
 ### Unsolved Problems
 
 -   Still need to add more options for movability around the app.
@@ -100,7 +111,6 @@ items.
 
 ## Images
 
-* * *
 
 #### ERD: <https://imgur.com/a/A4dJlCB>
 
